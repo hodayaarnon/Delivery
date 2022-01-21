@@ -18,7 +18,15 @@ import { AddSuggestComponent } from './homepage/view-delivery/view-details/add-s
 import { ViewSuggestionsComponent } from './homepage/manage-delivery/view-suggestions/view-suggestions.component';
 import { HomecontentComponent } from './homepage/homecontent/homecontent.component';
 import { MessagesComponent } from './homepage/manage-delivery/messages/messages.component';
-import { ViewDeliveryDetailsComponent } from './homepage/manage-delivery/view-delivery-details/view-delivery-details.component'
+import { ViewDeliveryDetailsComponent } from './homepage/manage-delivery/view-delivery-details/view-delivery-details.component';
+import { SubscribeComponent } from './homepage/sign-in/subscribe/subscribe.component';
+import { ConnectComponent } from './homepage/sign-in/connect/connect.component';
+import { MapComponent } from './homepage/view-delivery/map/map.component';
+import { PanelComponent } from './homepage/view-delivery/panel/panel.component';
+import { NewsComponent } from './homepage/view-delivery/news/news.component';
+import { DetailsonpanelComponent } from './homepage/view-delivery/panel/detailsonpanel/detailsonpanel.component';
+import { ViewdeliverycontentComponent } from './homepage/view-delivery/viewdeliverycontent/viewdeliverycontent.component';
+import { EmptyComponent } from './empty/empty.component'
 
 @NgModule({
   declarations: [
@@ -37,7 +45,15 @@ import { ViewDeliveryDetailsComponent } from './homepage/manage-delivery/view-de
     ViewSuggestionsComponent,
     HomecontentComponent,
     MessagesComponent,
-    ViewDeliveryDetailsComponent
+    ViewDeliveryDetailsComponent,
+    SubscribeComponent,
+    ConnectComponent,
+    MapComponent,
+    PanelComponent,
+    NewsComponent,
+    DetailsonpanelComponent,
+    ViewdeliverycontentComponent,
+    EmptyComponent
   ],
   imports: [
     BrowserModule,

@@ -8,8 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class ViewDetailsComponent implements OnInit {
 
   constructor() { }
-
+  public hide:boolean=false;
   ngOnInit(): void {
   }
 
+  hidef()
+  {
+    this.hide=true;
+  }
 }
