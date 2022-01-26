@@ -43,6 +43,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BL">
+      <HintPath>..\BL\bin\Debug\BL.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Web.DynamicData" />
@@ -85,12 +88,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="BL\transportsBL.cs" />
-    <Compile Include="BL\UsersBL.cs" />
     <Compile Include="Controllers\TransportsController.cs" />
-    <Compile Include="Controllers\UsersController.cs" />
-    <Compile Include="DL\transportsDL.cs" />
-    <Compile Include="DL\UsersDL.cs" />
+    <Compile Include="Controllers\usersController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

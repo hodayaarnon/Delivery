@@ -1,0 +1,8 @@
+F:\Users\user\Documents\finalProject\bsd\BL\bin\Debug\BL.dll
+F:\Users\user\Documents\finalProject\bsd\BL\bin\Debug\BL.pdb
+F:\Users\user\Documents\finalProject\bsd\BL\bin\Debug\DAL.dll
+F:\Users\user\Documents\finalProject\bsd\BL\bin\Debug\DAL.pdb
+F:\Users\user\Documents\finalProject\bsd\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+F:\Users\user\Documents\finalProject\bsd\BL\obj\Debug\BL.csproj.CopyComplete
+F:\Users\user\Documents\finalProject\bsd\BL\obj\Debug\BL.dll
+F:\Users\user\Documents\finalProject\bsd\BL\obj\Debug\BL.pdb

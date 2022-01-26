@@ -1,0 +1,1 @@
+f:\Users\user\Documents\finalProject\bsd\transportsAPI\obj\Release\transportsAPI.csproj.CoreCompileInputs.cache

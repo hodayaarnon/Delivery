@@ -62,3 +62,7 @@ F:\Users\user\Desktop\bsd\transportsAPI\obj\Debug\transportsAPI.csproj.CoreCompi
 F:\Users\user\Desktop\bsd\transportsAPI\obj\Debug\transportsAPI.csproj.CopyComplete
 F:\Users\user\Desktop\bsd\transportsAPI\obj\Debug\transportsAPI.dll
 F:\Users\user\Desktop\bsd\transportsAPI\obj\Debug\transportsAPI.pdb
+f:\Users\user\Documents\finalProject\bsd\transportsAPI\obj\Debug\transportsAPI.csprojAssemblyReference.cache
+f:\Users\user\Documents\finalProject\bsd\transportsAPI\obj\Debug\transportsAPI.csproj.CoreCompileInputs.cache
+f:\Users\user\Documents\finalProject\bsd\transportsAPI\obj\Debug\transportsAPI.dll
+f:\Users\user\Documents\finalProject\bsd\transportsAPI\obj\Debug\transportsAPI.pdb

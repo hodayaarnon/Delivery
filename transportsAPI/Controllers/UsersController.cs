@@ -5,15 +5,14 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using transportsAPI.BL;
-using transportsAPI.DL;
+using BL;
 using transportsAPI.Models;
 
 namespace transportsAPI.Controllers
 {
-    public class UsersController : ApiController
+    public class usersController : ApiController
     {
-         UsersDL dl1 = new UsersDL();
+        
 
             //GET: /api/Users
             [HttpGet]
@@ -119,9 +118,9 @@ namespace transportsAPI.Controllers
 
         public HttpResponseMessage Get()
         {
-            UsersBL userBL1 = new UsersBL();
-            int count = userBL1.countusers();
-            return Request.CreateResponse(HttpStatusCode.OK, count);
+            usersBL userBL1 = new usersBL();
+            int count =  userBL1.countusers();
+            return Request.CreateResponse(HttpStatusCode.OK, 66);
 
         }
 

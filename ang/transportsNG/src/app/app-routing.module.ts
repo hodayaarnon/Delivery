@@ -14,11 +14,12 @@ import { ViewDeliveryComponent } from './homepage/view-delivery/view-delivery.co
 import { SignInComponent } from './homepage/sign-in/sign-in.component';
 import { ManageCommunityComponent } from './homepage/manage-community/manage-community.component';
 import { NgModule, Component } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule, Routes, CanActivate } from '@angular/router';
 import { JoinCommunityComponent } from './homepage/join-community/join-community.component';
 import { MessagesComponent } from './homepage/manage-delivery/messages/messages.component';
 import { Subscription } from 'rxjs';
 import { ViewdeliverycontentComponent } from './homepage/view-delivery/viewdeliverycontent/viewdeliverycontent.component';
+import { AuthGuard } from './auth.guard';
 
 const routes: Routes = [
 {path:'', component:HomecontentComponent },
@@ -45,13 +46,13 @@ const routes: Routes = [
             ]},
               {path:'adddelivery', component:AddDeliveryComponent},
               ]
-               
+             
 
 },
-{path:'viewhistory', component:ViewHistoryComponent},
+{path:'viewhistory', component:ViewHistoryComponent, canActivate:[AuthGuard]},
 {path:'managecommunity', component:ManageCommunityComponent},
 
-{path:'backtohome', component:HomecontentComponent},
+//{path:'backtohome', component:HomecontentComponent},
 
 //{path:'**', component:HomecontentComponent},
 

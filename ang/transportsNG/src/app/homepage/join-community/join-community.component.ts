@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-join-community',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class JoinCommunityComponent implements OnInit {
 
-  constructor() { }
+  constructor(public router:Router) { }
 
   ngOnInit(): void {
   }
 
+  checkRoute(route:string)
+  {
+    if(this.router.url===route)
+    return true; return false;
+  }
 }

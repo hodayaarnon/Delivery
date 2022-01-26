@@ -1,3 +1,4 @@
+import { AuthServiceService } from './services/auth-service.service';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -27,6 +28,10 @@ import { NewsComponent } from './homepage/view-delivery/news/news.component';
 import { DetailsonpanelComponent } from './homepage/view-delivery/panel/detailsonpanel/detailsonpanel.component';
 import { ViewdeliverycontentComponent } from './homepage/view-delivery/viewdeliverycontent/viewdeliverycontent.component';
 import { EmptyComponent } from './empty/empty.component'
+import { AuthGuard } from './auth.guard';
+
+import { DeliverieshistoryComponent } from './homepage/view-history/deliverieshistory/deliverieshistory.component';
+import { VolunteeringhistoryComponent } from './homepage/view-history/volunteeringhistory/volunteeringhistory.component';
 
 @NgModule({
   declarations: [
@@ -53,14 +58,17 @@ import { EmptyComponent } from './empty/empty.component'
     NewsComponent,
     DetailsonpanelComponent,
     ViewdeliverycontentComponent,
-    EmptyComponent
+    EmptyComponent,
+   
+    DeliverieshistoryComponent,
+        VolunteeringhistoryComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [AuthGuard, AuthServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
