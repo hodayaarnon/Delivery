@@ -10,20 +10,20 @@ export class UsersService {
 result:any;
 
   getCount() {
-    this.myhttp.get('/api/Users').subscribe((res) => {
+    this.myhttp.get('/api/users').subscribe((res) => {
       console.log(res);
       this.result=res;
     });
     return this.result;
   }
 
-  getName() {
-    this.myhttp.get('/api/Users').subscribe((res) => {
-      console.log(res);
-      this.result=res;
-    });
-    return this.result;
-  }
+  // getName() {
+  //   this.myhttp.get('/api/users').subscribe((res) => {
+  //     console.log(res);
+  //     this.result=res;
+  //   });
+  //   return this.result;
+  // }
 }
 
 
